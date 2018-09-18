@@ -1,0 +1,67 @@
+row header
+    row nav
+        col left
+            col logo
+            col position
+        col right
+            row login
+            row link-group
+    row title
+        row h1
+        row carousel-title
+    row search
+        row category
+        row search-bar
+    row declaration
+row body
+    row business
+        col card*3
+            row thumbnail
+            row text
+                title
+                desc
+    row app
+        row title
+        row desc
+        row download
+            col left
+            col right
+    row recommendation-second-house
+        row head
+            col left
+            col right
+        row 
+            col card*4
+                row thumbnail
+                row text
+                    title
+                    desc
+                row sub-text    
+    row recommendation-community
+        row head
+            col left
+            col right
+        row 
+            col card*3
+                row thumbnail
+                row text
+                    title
+                    desc
+    row recommendation-new-house
+        ......
+        ......
+    row slogan
+        col left
+            row
+            row
+        col right
+            row
+            row
+row footer
+    row
+        col left about
+        col right tel
+    row
+        row button
+        row links
+    row mata-info
