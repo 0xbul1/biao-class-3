@@ -1,0 +1,58 @@
+row header
+    col left link-group
+    col right login
+row main
+    row nav
+        col logo
+        col gif
+        col link-group
+        col search
+    row carousel
+        col left
+        col right
+    row category
+        col
+            row
+                col
+                col
+                col
+            row
+                col
+                col
+                col
+        col
+        col
+        col
+row body
+    row recommend mi-buy
+        row top 
+            col
+            col
+        row mid
+            col card*5
+                row thumbnail
+                row text
+        row bottom
+    row recommend phone
+        row
+        row
+            col
+            col
+                row
+                    col*4
+                row
+                    col*4
+        row        
+    row recommend
+    row 
+    row
+row footer
+    row
+        col*5
+    row
+        col
+            col*6
+        col
+    row
+        col
+        col
