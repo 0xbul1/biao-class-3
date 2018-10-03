@@ -1,0 +1,42 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col {
+        float: left;
+        width: 50%;
+        background: rgba(0, 0, 0, .1);
+        padding: 20px;
+        border: solid salmon;
+    }
+    .clear {
+        clear: both;
+    }
+</style>
+<div class="row">
+    <div class="col">
+        <!-- <div class="row"> -->
+            <div class="col">
+                <div class="col">aaa</div>
+                <div class="col clear">bbb</div>
+                <!-- <div class="col">ccc</div> -->
+            </div>
+            <div class="col">bb</div>
+        <!-- </div> -->
+    </div>
+    <div class="col">
+        <div class="row">
+            <div class="col">aa</div>
+            <div class="col">
+                <div class="col">aaa</div>
+                <div class="col">aaa</div>
+            </div>
+        </div>
+    </div>
+</div>
