@@ -1,0 +1,83 @@
+<style>
+     * {
+        box-sizing: border-box;
+    }
+    .row {
+        border: solid rgba(0, 0, 0, .1);
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col-1 {
+        width: 8.333333333333333%;
+    }
+    .col-2 {
+        width: 16.666666666666666%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.333333333333333%;
+    }
+    .col-5 {
+        width: 41.666666666666666%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.333333333333333%;
+    }
+    .col-8 {
+        width: 66.666666666666666%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.333333333333333%;
+    }
+    .col-11 {
+        width: 91.666666666666666%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col {
+        float: left;
+        /* ========== */
+        border: solid rgba(0, 0, 0, .25);   
+        padding: 10px;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+</style>
+<div class="row nav-global">
+    <div class="col-7"></div>
+    <div class="col-5"></div>
+</div>
+<div class="row header">
+    <div class="nav-page"></div>
+</div>
+<div class="row main"></div>
+<div class="row footer"></div>
