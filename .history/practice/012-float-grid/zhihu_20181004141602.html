@@ -1,0 +1,89 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .row {
+        border: solid rgba(0, 0, 0, .1);
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col {
+        float: left;
+        padding: 5px;
+        border: solid rgba(0, 0, 0, .25);
+    }
+    .col-1 {
+        width: 8.333333333333333%;
+    }
+    .col-2 {
+        width: 16.666666666666666%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.333333333333333%;
+    }
+    .col-5 {
+        width: 41.666666666666666%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.333333333333333%;
+    }
+    .col-8 {
+        width: 66.666666666666666%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.333333333333333%;
+    }
+    .col-11 {
+        width: 91.666666666666666%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+</style>
+<div class="row nav">
+    <div class="col-2"></div>
+    <div class="col-6"></div>
+    <div class="col-4"></div>
+</div>
+<div class="row">
+    <div class="col-8 content">
+        <div class="row tool">
+            <div class="col-8"> 提问 提问 提问 提问</div>
+            <div class="col-4">草稿</div>
+        </div>
+        <div class="row activity">
+            <div class="row">来自话题</div>
+            <div class="row">吹牛君：吹牛吹牛</div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </div>
+    </div>
+    <div class="col-4 sidebar"></div>
+</div>
