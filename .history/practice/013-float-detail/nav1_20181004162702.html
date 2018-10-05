@@ -2,7 +2,6 @@
     * {
         box-sizing: border-box;
     }
-
     .row::before,
     .row::after {
         content: '';
@@ -134,34 +133,28 @@
     body {
         margin: 0;
     }
-    .nav {
-        background: #545652;
-        /* color: #fff; */
-        padding: 0 5px;  
-    }
-    .nav a {
-        display: inline-block;
-        text-decoration: none;
-        /* font-family: serif; */
-        font-family: sans-serif;
-        /* font-family: monospace; */
-        /* font-family: cursive; */
-        /* font-family: fantasy; */
-        /* font-family: system-ui; */
-        
-        color: #d5d5d5;
-        padding: 8px;
-        font-size: 0.8em;
-    } 
-    .nav a:hover {
-        color: #fff;
-    }
     .right {
         text-align: right;
     }
+    .nav {
+        background: #545652; 
+        padding: 0 5px;
+    }
+    .nav a {
+        text-decoration: none;
+        font-family: sans-serif;
+        color: #d5d5d5;
+        padding: 10px;
+        font-size: 0.8em;
+        display: inline-block; 
+    }
+    .nav a:hover {
+        color: #fff;
+        /* background: #aaa; */
+    }
 </style>
 <div class="row nav">
-    <div class="col-16 left">
+    <div class="col-18 left">
         <a href="#">豆瓣</a>
         <a href="#">读书</a>
         <a href="#">电影</a>
@@ -173,7 +166,7 @@
         <a href="#">豆品</a>
         <a href="#">更多</a>
     </div>
-    <div class="col-8 right">
+    <div class="col-6 right">
         <a href="#">下载豆瓣客户端</a>
         <a href="#">登录</a>
         <a href="#">注册</a>

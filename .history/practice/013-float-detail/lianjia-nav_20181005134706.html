@@ -2,7 +2,6 @@
     * {
         box-sizing: border-box;
     }
-
     .row::before,
     .row::after {
         content: '';
@@ -131,51 +130,50 @@
     .col-24 {
         width: 100%;
     }
-    body {
-        margin: 0;
+    .container {
+        max-width: 900px;
+        /* text-align: center; */
+        margin: 0 auto;
     }
-    .nav {
-        background: #545652;
-        /* color: #fff; */
-        padding: 0 5px;  
+    .nav .right {
+       text-align: right;
     }
-    .nav a {
-        display: inline-block;
-        text-decoration: none;
-        /* font-family: serif; */
-        font-family: sans-serif;
-        /* font-family: monospace; */
-        /* font-family: cursive; */
-        /* font-family: fantasy; */
-        /* font-family: system-ui; */
-        
-        color: #d5d5d5;
-        padding: 8px;
-        font-size: 0.8em;
-    } 
-    .nav a:hover {
-        color: #fff;
+    .nav .logo {
+        width: 154px;
+    height: 74px;
+        background: #aaaaaa;
+        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new@2x.png?index=20170526);
+        background-position: -28px -28px;  
     }
-    .right {
-        text-align: right;
-    }
+
 </style>
+<div class="container">
 <div class="row nav">
-    <div class="col-16 left">
-        <a href="#">豆瓣</a>
-        <a href="#">读书</a>
-        <a href="#">电影</a>
-        <a href="#">音乐</a>
-        <a href="#">小组</a>
-        <a href="#">阅读</a>
-        <a href="#">FM</a>
-        <a href="#">时间</a>
-        <a href="#">豆品</a>
-        <a href="#">更多</a>
+    <div class="col-6 left">
+        <div class="col-12 logo"></div>
+        <div class="col-12">北京</div>
     </div>
-    <div class="col-8 right">
-        <a href="#">下载豆瓣客户端</a>
-        <a href="#">登录</a>
-        <a href="#">注册</a>
+    <div class="col-18 right">
+        <div class="row">
+            <a href="#"></a>
+            <a href="#">登录</a>
+            <a href="#">立即注册</a>
+        </div>
+        <div class="row">
+            <a href="#">二手房</a>
+            <a href="#">新房</a>
+            <a href="#">租房</a>
+            <a href="#">旅居</a>
+            <a href="#">海外</a>
+            <a href="#">小区</a>
+            <a href="#">经纪人</a>
+            <a href="#">指南</a>
+            <a href="#">房价</a>
+            <a href="#">工具</a>
+            <a href="#">经验</a>
+            <a href="#">发布房源</a>
+            <a href="#">企业汇</a>
+        </div>
     </div>
+</div>
 </div>
