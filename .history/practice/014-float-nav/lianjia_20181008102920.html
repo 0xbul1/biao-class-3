@@ -134,90 +134,48 @@
         margin: 0;
     }
     .container {
-        max-width: 1100px;
-        /* text-align: center; */
+        max-width: 1200px;
         margin: 0 auto;
-        /* background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/bannerV2.jpg); */
-    }
-    a {
-        text-decoration: none;
     }
     .nav {
-        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/bannerV2.jpg);
-        background-position: center 0;
+        /* background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/bannerV2.jpg); */
+        background: #161616 url(https://s1.ljcdn.com/feroot/pc/asset/img/home/bannerV2.jpg) no-repeat;
         width: 100%;
-        height: 630px;
-        background-attachment: fixed;
-        padding-top: 30px;
-
-        /* display: block; */
-        
+        height: 638px;
+        /* padding-top: 30px; */
+        padding-top: 1em;
     }
-    /* .nav .right * {
-        float: right;
-    } */
     .nav .right {
-       text-align: right;
+        text-align: right;
     }
-    .nav .logo {
-        width: 154px;
-        height: 74px;
-        /* background: #aaaaaa; */
-        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new@2x.png?index=20170526);
-        background-position: -33px -37px;
-    }
-    .login {
-        margin-bottom: 10px;
+    .nav .right a {
+        text-decoration:none;
+        color: #fff;
     }
     .login a {
-        color: #fff;
-        font-size: .75em;;
-    }
-    /* .link-group {
-        margin-left: 12px;
-    } */
-    .link-group a {
-        color: #fff;
-        font-family: sans-serif;
-        font-weight: 600;
-        padding: 10px;
-    }
-    .link-group a:last-child  {
-        padding-right: 0;
-    }
-    .position {
-        position: relative;
-        left: 28px;
-        top: 25px;
-        /* display: inline-block; */
-        color: #fff;
-        font-family: serif;
         font-size: .7em;
-        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new@2x.png?index=20170526);
-        background-position: 10px 10px;
-        height: 20px;
-        width: 50px;
-        /* background: #ccc; */
-      
-        /* display: inline-block; */
+        font-family: sans-serif;
     }
-    /* .fr {
-        float: right;
-    } */
-
+    .link-group a {
+        font-weight: bold;
+        display: inline-block;
+        padding: 0 8px;
+    }
+    .link-group a:last-child {
+        padding: 0;
+    }
 </style>
-
 <div class="row nav">
-<div class="container">
-    <div class="col-6 left">
-        <div class="col-12 logo"></div>
-        <div class="col position">北京</div>
+    <div class="container">
+        <div class="col-6 left">
+        <div class="col-12 logo">链家</div>
+        <div class="col-12 position">北京</div>
     </div>
     <div class="col-18 right">
         <div class="row login">
-            <a href="#"></a>
             <a href="#">登录</a>
             <a href="#">立即注册</a>
+            <!-- <a href="#">登录</a> -->
         </div>
         <div class="row link-group">
             <a href="#">二手房</a>
@@ -235,5 +193,5 @@
             <a href="#">企业汇</a>
         </div>
     </div>
-</div>
+    </div>
 </div>
