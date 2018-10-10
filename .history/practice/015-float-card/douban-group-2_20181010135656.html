@@ -1,0 +1,318 @@
+<style>
+    /* =====布局css=== */
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-13,
+    .col-14,
+    .col-15,
+    .col-16,
+    .col-17,
+    .col-18,
+    .col-19,
+    .col-20,
+    .col-21,
+    .col-22,
+    .col-23,
+    .col-24,
+    .col {
+        float: left;
+    }
+    .col-1 {
+        width: 4.1666666667%;
+    }
+
+    .col-2 {
+        width: 8.3333333333%;
+    }
+
+    .col-3 {
+        width: 12.5%;
+    }
+
+    .col-4 {
+        width: 16.6666666667%;
+    }
+
+    .col-5 {
+        width: 20.8333333333%;
+    }
+
+    .col-6 {
+        width: 25%;
+    }
+
+    .col-7 {
+        width: 29.1666666667%;
+    }
+
+    .col-8 {
+        width: 33.3333333333%;
+    }
+
+    .col-9 {
+        width: 37.5%;
+    }
+
+    .col-10 {
+        width: 41.6666666667%;
+    }
+
+    .col-11 {
+        width: 45.8333333333%;
+    }
+
+    .col-12 {
+        width: 50%;
+    }
+
+    .col-13 {
+        width: 54.1666666667%;
+    }
+
+    .col-14 {
+        width: 58.3333333333%;
+    }
+
+    .col-15 {
+        width: 62.5%;
+    }
+
+    .col-16 {
+        width: 66.6666666667%;
+    }
+
+    .col-17 {
+        width: 70.8333333333%;
+    }
+
+    .col-18 {
+        width: 75%;
+    }
+
+    .col-19 {
+        width: 79.1666666667%;
+    }
+
+    .col-20 {
+        width: 83.3333333333%;
+    }
+
+    .col-21 {
+        width: 87.5%;
+    }
+
+    .col-22 {
+        width: 91.6666666667%;
+    }
+
+    .col-23 {
+        width: 95.8333333333%;
+    }
+
+    .col-24 {
+        width: 100%;
+    }
+
+    /* ====小坑css===== */
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    img {
+        max-width: 100%;
+    }
+    a {
+        text-decoration: none;
+        color: #37a;
+    }
+    .nav-page a:hover,
+    .main a:hover,
+    .footer a:hover {
+        background: #037b82;
+        color: #fff;
+    } 
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .muted {
+        color: rgba(0, 0, 0, .3);
+    }
+/* ========全局导航css====== */
+    .nav-global {
+        background: #545652;
+    }
+    .nav-global a {
+        color: #d5d5d5;
+        display: inline-block;
+        padding: 10px;
+        font-size: 1em;
+    }
+    .nav-global a:hover {
+        color: #eee;
+    }
+
+    .nav-global .right {
+        text-align: right;
+    } 
+    /* =======页面导航css========= */
+    .nav-page {
+        background: #f0f6f3;
+        padding: 1.9em;
+    }
+    .nav-page .logo {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    .nav-page .link-group {
+        font-size: 1.3em;
+        margin-top: .8em;
+        
+    }
+    .nav-page .link-group > * {
+        margin-right: 2em;
+    }
+    .nav-page .search {
+        position: relative;
+        margin-top: .5em;
+
+    }
+
+    .nav-page .search input {
+        padding: .6em;
+        border: 0;
+        outline: 0;
+        width: 100%;
+        border-radius: 3px;
+    }
+    .nav-page .search input:hover {
+        box-shadow: inset 0 0 5px 1px #037b82;
+    }
+    .nav-page .search span {
+        position: absolute;
+        right: 6px;
+        top: 11px;
+    }
+    /* ==========主体上部分======= */
+    .main .top {
+        font-size: 1.5em;
+        padding: 2em;
+    }
+    /* ========主体中部左部分css====== */
+    
+
+
+
+
+
+
+</style>
+<div class="row nav-global">
+    <div class="col-18 left">
+        <a href="#">豆瓣</a>
+        <a href="#">读书</a>
+        <a href="#">电影</a>
+        <a href="#">音乐</a>
+        <a href="#">同城</a>
+        <a href="#">小组</a>
+        <a href="#">阅读</a>
+        <a href="#">FM</a>
+        <a href="#">时间</a>
+        <a href="#">豆品</a>
+        <a href="#">更多</a>
+    </div>
+    <div class="col-6 right">
+        <a href="#">下载豆瓣客户端</a>
+        <a href="#">登录</a>
+        <a href="#">注册</a>
+    </div>
+</div>
+<div class="row nav-page">
+    <div class="container">
+    <div class="col-4 logo">
+        <a href="#">豆瓣小组</a>
+    </div>
+    <div class="col-14 link-group">
+        <a href="#">精选</a>
+        <a href="#">文化</a>
+        <a href="#">行摄</a>
+        <a href="#">娱乐</a>
+        <a href="#">时尚</a>
+        <a href="#">生活</a>
+        <a href="#">科技</a>
+    </div>
+    <div class="col-6 search">
+        <input type="text" placeholder="一giu古力giaogiao">
+        <span><img src="https://img3.doubanio.com/f/shire/f71f15922ebd7c0ff0ea0e7a25577529efd8981a/pics/icon/bn_srh_1.png"></span>
+    </div>
+    </div>
+</div>
+<div class="row main">
+    <div class="container">
+    <div class="row top">讨论精选</div>
+    <div class="row mid">
+        <div class="col-16 left">
+            <div class="row activity">
+                <div class="col-3">
+                    <div>3</div>
+                    <div>喜欢</div>
+                </div>
+                <div class="col-21">
+                    <div class="row preview">
+                        <div class="row title">探讨原生家庭的影响</div>
+                        <div class="row desc">楼主这次想谈谈原生家庭对讨好型人格的影响。 首先，提出整个贴子的中心思想：↓ 前一个月楼主开贴写了一些工作和感情上的自我修正的方法，然而最近楼主自己是在家庭方面经历了一些事，加...</div>
+                        <div class="row info">
+                            来自讨好型人格治疗所小组 昨天12:16
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8 right">
+            <div class="row activity">
+                <div class="row"></div>
+                <div class="row preview">
+                    <div class="col-3"></div>
+                    <div class="col-21">
+                        <div class="row title">西安招聘</div>
+                        <div class="row info">19593个成员 +加入小组</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row bot"></div>
+    </div>
+</div>
+<div class="row footer">
+    <div class="col-12">© 2005－2018 douban.com, all rights reserved 北京豆网科技有限公司</div>
+    <div class="col-12">
+        <a href="#">关于豆瓣</a>
+        <a href="#">在豆瓣工作</a>
+        <a href="#">联系我们</a>
+        <a href="#">免责声明</a>
+        <a href="#">帮助中心</a>
+        <a href="#">移动应用</a>
+        <a href="#">豆瓣广告</a>
+    </div>
+</div>
