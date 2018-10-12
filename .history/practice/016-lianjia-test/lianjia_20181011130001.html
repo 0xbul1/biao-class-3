@@ -1,0 +1,336 @@
+<style>
+    /* ======布局css========= */
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-13,
+    .col-14,
+    .col-15,
+    .col-16,
+    .col-17,
+    .col-18,
+    .col-19,
+    .col-20,
+    .col-21,
+    .col-22,
+    .col-23,
+    .col-24,
+    .col {
+        float: left;
+    }
+    .col-1 {
+        width: 4.1666666667%;
+    }
+
+    .col-2 {
+        width: 8.3333333333%;
+    }
+
+    .col-3 {
+        width: 12.5%;
+    }
+
+    .col-4 {
+        width: 16.6666666667%;
+    }
+
+    .col-5 {
+        width: 20.8333333333%;
+    }
+
+    .col-6 {
+        width: 25%;
+    }
+
+    .col-7 {
+        width: 29.1666666667%;
+    }
+
+    .col-8 {
+        width: 33.3333333333%;
+    }
+
+    .col-9 {
+        width: 37.5%;
+    }
+
+    .col-10 {
+        width: 41.6666666667%;
+    }
+
+    .col-11 {
+        width: 45.8333333333%;
+    }
+
+    .col-12 {
+        width: 50%;
+    }
+
+    .col-13 {
+        width: 54.1666666667%;
+    }
+
+    .col-14 {
+        width: 58.3333333333%;
+    }
+
+    .col-15 {
+        width: 62.5%;
+    }
+
+    .col-16 {
+        width: 66.6666666667%;
+    }
+
+    .col-17 {
+        width: 70.8333333333%;
+    }
+
+    .col-18 {
+        width: 75%;
+    }
+
+    .col-19 {
+        width: 79.1666666667%;
+    }
+
+    .col-20 {
+        width: 83.3333333333%;
+    }
+
+    .col-21 {
+        width: 87.5%;
+    }
+
+    .col-22 {
+        width: 91.6666666667%;
+    }
+
+    .col-23 {
+        width: 95.8333333333%;
+    }
+
+    .col-24 {
+        width: 100%;
+    }
+    /* =====额外标签css============ */
+    * {
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+    }
+    img {
+        max-width: 100%;
+    }
+    body {
+        margin: 0;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    form {
+        margin: 0;
+    }
+    h1 {
+        margin: 0;
+    }
+    /* ========一些有趣的类css======= */
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .primary {
+        color: #00ae66;
+    }
+    .muted {
+        color: #ccc;
+    }
+    .fr {
+        float: right;
+    }
+    .fl {
+        float: left;
+    }
+    .text-left {
+        text-align: left;
+    }
+    .text-right {
+        text-align: right;
+    }
+    .text-center {
+        text-align: center;
+    }
+    /* ========header nav css=========== */
+    .header {
+        /* background: #ccc; */
+        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/bannerV2.jpg);
+    }
+    /* .header .nav {
+        background: #aaa;
+    } */
+    .header .nav {
+        padding-top: 2em;
+    
+    }
+    .header .nav .logo {
+        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new@2x.png?index=20170526);
+        background-position: -37px -32px;
+        width: 149px;
+        height: 75px;
+        /* background: #000; */
+    }
+    .header .nav .location {
+        color: #fff;
+        display: inline-block;
+        background-image: url(https://s1.ljcdn.com/feroot/pc/asset/img/home/spriteV2_new.png?index=20170526);
+        width: 30px;
+        height: 15px;
+        background-position: -188px -20px;
+        background: #000;
+        /* text-align: right */
+        /* font-size: ; */
+    }
+    
+    /* .header .nav > * {
+        vertical-align: middle;
+    } */
+    .header .nav .col-20 {
+        padding-top: 1em;
+    }
+
+    .header .nav .col-20 a {
+        color: #fff;
+    }
+    .header .nav .login {
+        font-size: .9em;
+        margin-bottom: .5em;
+    }
+    .header .nav .link-group {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .header .nav .link-group a {
+        margin-left: 10px;
+    }
+    /* ============header h1 css========= */
+    .header .h1 {
+        /* text-align: center; */
+        margin-top: 4em;
+    }
+    .header .h1 h1{
+        color: #fff;
+        font-size: 4.5em;
+    }
+    .header .h1 .sub-h1 {
+        color: #fff;
+        font-size: 1.6em;
+    }
+
+    /* ===header search css========== */
+    .header .search {
+        margin-top: 3em;
+    }
+    .header .search .category {
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+    .header .search form {
+        font-size: 0;
+    }
+
+    .header .search form input{
+        width: 80%;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+    }
+    /* .header .search form input::after {
+        font-size: 0;
+    } */
+
+    .header .search form button {
+        width: 20%;
+    }
+
+
+
+
+</style>
+
+<div class="row header">
+    <div class="container">
+    <div class="row nav">
+        <div class="col-4">
+            <div class="logo"></div>
+            <div class="location">
+                <span>北京</span>
+            </div>
+        </div>
+        <div class="col-20 text-right">
+            <div class="row login">
+                <a href="#">登录</a>
+                <a href="#">立即注册</a>
+            </div>
+            <div class="row link-group">
+                <a href="#">二手房</a>
+                <a href="#">新房</a>
+                <a href="#">租房</a>
+                <a href="#">旅居</a>
+                <a href="#">海外</a>
+                <a href="#">小区</a>
+                <a href="#">经纪人</a>
+                <a href="#">指南</a>
+                <a href="#">房价</a>
+                <a href="#">工具</a>
+                <a href="#">经验</a>
+                <a href="#">发布房源</a>
+                <a href="#">企业汇</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row h1 text-center">
+        <div class="container">
+        <h1>连接每个家的故事</h1>
+        <div class="row sub-h1">北京链家在售新房楼盘 59 个</div>
+        </div>
+    </div>
+    <div class="row search">
+        <div class="container">
+        <div class="row category">
+            <span>找二手房</span>
+            <span class="muted">找新房</span>
+            <span class="muted">找租房</span>
+            <span class="muted">找小区</span>
+            <span class="muted">搜问答</span>
+        </div>
+        <form>
+            <input type="text" placeholder="请输入区域，商圈或小区名开始找房">
+            <button>开始找房子</button>
+        </form>
+    </div>
+    </div>
+    <div class="row announce">
+        <a href="#">关于仿冒我公司进行不正当竞争行为的郑重声明</a>
+        <a href="#">房地产中介诚信服务承诺及保证书</a>
+        <a href="#">致广大用户</a>
+    </div>
+</div>
+<div class="row main"></div>
+<div class="row footer"></div>

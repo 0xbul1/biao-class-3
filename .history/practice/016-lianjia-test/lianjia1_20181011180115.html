@@ -1,0 +1,309 @@
+<style>
+    /* ===========布局css========= */
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-13,
+    .col-14,
+    .col-15,
+    .col-16,
+    .col-17,
+    .col-18,
+    .col-19,
+    .col-20,
+    .col-21,
+    .col-22,
+    .col-23,
+    .col-24,
+    .col {
+        float: left;
+    }
+    .col-1 {
+        width: 4.1666666667%;
+    }
+
+    .col-2 {
+        width: 8.3333333333%;
+    }
+
+    .col-3 {
+        width: 12.5%;
+    }
+
+    .col-4 {
+        width: 16.6666666667%;
+    }
+
+    .col-5 {
+        width: 20.8333333333%;
+    }
+
+    .col-6 {
+        width: 25%;
+    }
+
+    .col-7 {
+        width: 29.1666666667%;
+    }
+
+    .col-8 {
+        width: 33.3333333333%;
+    }
+
+    .col-9 {
+        width: 37.5%;
+    }
+
+    .col-10 {
+        width: 41.6666666667%;
+    }
+
+    .col-11 {
+        width: 45.8333333333%;
+    }
+
+    .col-12 {
+        width: 50%;
+    }
+
+    .col-13 {
+        width: 54.1666666667%;
+    }
+
+    .col-14 {
+        width: 58.3333333333%;
+    }
+
+    .col-15 {
+        width: 62.5%;
+    }
+
+    .col-16 {
+        width: 66.6666666667%;
+    }
+
+    .col-17 {
+        width: 70.8333333333%;
+    }
+
+    .col-18 {
+        width: 75%;
+    }
+
+    .col-19 {
+        width: 79.1666666667%;
+    }
+
+    .col-20 {
+        width: 83.3333333333%;
+    }
+
+    .col-21 {
+        width: 87.5%;
+    }
+
+    .col-22 {
+        width: 91.6666666667%;
+    }
+
+    .col-23 {
+        width: 95.8333333333%;
+    }
+
+    .col-24 {
+        width: 100%;
+    }
+    /* ==========一些标签css====== */
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 12px;
+        font-family: sans-serif;
+    }
+    form,
+    h1,
+    body {
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    img {
+        max-width: 100%;
+    }
+    /* ==========有趣的类================ */
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .dim {
+        color: #ccc;
+    }
+    . {
+        color: #fff;
+    }
+    .primary {
+        background: #00ae66;
+        color: #fff;
+    }
+</style>
+<div class="row header">
+    <div class="row nav">
+    <div class="col">
+        <a href="#" class="logo">logo</a>
+        <a href="#" class="location">
+            <span>北京</span>
+        </a>
+    </div>
+    <div class="col">
+        <div class="row login">
+            <span></span>
+            <a href="#">登录</a>
+            <a href="#">立即注册</a>
+        </div>
+        <div class="row link-group">
+            <a href="#">二手房</a>
+            <a href="#">新房</a>
+            <a href="#">租房</a>
+            <a href="#">旅居</a>
+            <a href="#">海外</a>
+            <a href="#">小区</a>
+            <a href="#">经纪人</a>
+            <a href="#">指南</a>
+            <a href="#">房价</a>
+            <a href="#">工具</a>
+            <a href="#">经验</a>
+            <a href="#">发布房源</a>
+            <a href="#">企业汇</a>
+        </div>
+    </div>
+    </div>
+    <div class="row center">
+        <div class="row h1">
+            <h1>连接每个家的故事</h1>
+            <div class="row sub-h1">北京链家真实在售二手房 50371 套</div>
+        </div>
+        <div class="row search">
+            <div class="row catgory">
+                <span>找二手房</span>
+                <span>找新房</span>
+                <span>找租房</span>
+                <span>找小区</span>
+                <span>搜问答</span>
+            </div>
+            <form class="row">
+                <input type="text" placeholder="请输入区域、商圈开始找房">    
+                <button type="submit">开始找房</button>
+            </form>
+        </div>
+    </div>
+    <div class="row announce">
+        <a href="#">关于仿冒我公司进行不正当竞争行为的郑重声明</a>
+        <a href="#">房地产中介诚信服务承诺及保证书</a>
+        <a href="#">致广大用户</a>
+    </div>
+</div>
+<div class="row main">
+    <div class="row business">
+        <div class="col-8">
+            <div class="row card">
+                <div class="row thumbnail"></div>
+                <div class="row text">
+                    <div class="title"></div>
+                    <div class="desc"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8"></div>
+        <div class="col-8"></div>
+    </div>
+    <div class="row app">
+        <div class="col-12">
+            <div class="row">
+                <div class="row sub-title"></div>
+                <div class="row title"></div>
+            </div>
+            <div class="row">
+                <div class="row desc"></div>
+            </div>
+            <div class="row">
+                <div class="col download"></div>
+                <div class="col qr-code"></div>
+            </div>
+        </div>
+        <div class="col-12"></div>
+    </div>
+    <div class="row second">
+        <div class="row top">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row mid">
+            <div class="col-6">
+                <div class="row card">
+                    <div class="row thumbnail"></div>
+                    <div class="row text">
+                        <div class="title">龙城别墅 两居 精装修</div>
+                        <div class="desc">
+                            龙城花园北二区 2室1厅 65.64平米
+                        </div>
+                    </div>
+                </div>
+                <div class="row sub">
+                    <a href="#">近期关注度较高房源</a>
+                </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+        <div class="row bot"></div>
+    </div>
+    <div class="row community">
+        <div class="row top">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row mid">
+            <div class="col-8"></div>
+        </div>
+        <div class="row bot"></div>
+    </div>
+    <div class="row new"></div>
+    <div class="row promise">
+        <div class="col-12">
+            <div class="title"></div>
+            <div class="sub-title"></div>
+        </div>
+        <div class="col-12">
+
+        </div>
+    </div>
+</div>
+<div class="row footer">
+    <div class="row about">
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+    <div class="row other">
+        <div class="row"></div>
+        <div class="row"></div>
+    </div>
+    <div class="row meta-info"></div>
+</div>
