@@ -7,14 +7,12 @@ https://www.cnblogs.com/fortunel/p/6380682.html
 
 4、padding：50%，这种是按照母元素的宽度计算的
 
-5、常用的伪类和伪元素。
-https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements
-
-    6个伪元素
-        ::after
-        ::before
-        ::first-letter
-        ::first-line
-        ::selection
-        ::backdrop
+5、常用的伪类和伪元素，6个伪元素
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+    ::backdrop
+    
 
