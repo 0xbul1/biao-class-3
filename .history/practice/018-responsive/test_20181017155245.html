@@ -1,0 +1,47 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background: #eee;
+    }
+    .row::before,
+    .row::after {
+        content: '';
+        display: block;
+        clear: both; 
+    }
+    .col {
+        float: left;
+        width: 25%;
+        padding: 10px;
+    }
+
+    .card {
+        background: #fff;
+        padding: 10px;
+    }
+
+</style>
+<style media="screen and (max-width: 800px)">
+    .col {
+        width: 50%;
+        color: blue;
+    }
+</style>
+<div class="col">
+    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quibusdam commodi suscipit in minima harum omnis asperiores ipsam ducimus, perspiciatis earum fugit quam cupiditate! Deserunt, dolorem. Harum dicta consectetur velit.
+    </div>
+</div>
+<div class="col">
+    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quibusdam commodi suscipit in minima harum omnis asperiores ipsam ducimus, perspiciatis earum fugit quam cupiditate! Deserunt, dolorem. Harum dicta consectetur velit.
+    </div>
+</div>
+<div class="col">
+    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quibusdam commodi suscipit in minima harum omnis asperiores ipsam ducimus, perspiciatis earum fugit quam cupiditate! Deserunt, dolorem. Harum dicta consectetur velit.
+    </div>
+</div>
+<div class="col">
+    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quibusdam commodi suscipit in minima harum omnis asperiores ipsam ducimus, perspiciatis earum fugit quam cupiditate! Deserunt, dolorem. Harum dicta consectetur velit.
+    </div>
+</div>
