@@ -1,0 +1,47 @@
+body {
+    background: url(../img/bg-wood.jpg);
+    color: rgba(0, 0, 0, .6);
+}
+.header {
+    margin: 40px 0;
+    text-align: center;
+}
+.header .h1 {
+    font-size: 2em;
+}
+.main .wrap {
+    background: url(../img/body-bg.png);
+    padding: 20px;
+    border-radius: 5px;
+}
+.main .col-lg-16.left {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main .left .link-group {
+    padding: 15px 20px;
+    border-bottom: .5px solid rgba(0, 0, 0, .3);
+
+}
+.main .left .link-group a {
+    padding-right: 15px;
+}
+.main .left .announcement {
+    margin: 40px 0;
+}
+
+.main .left .announcement div {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, .05);
+    font-size: 1.2em;
+}
+.main .left .activity .preview .date {
+    font-size: .8em;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, .6);
+}
+
+

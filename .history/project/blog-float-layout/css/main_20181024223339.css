@@ -1,0 +1,16 @@
+body {
+    background: url(../img/bg-wood.jpg);
+    color: rgba(0, 0, 0, .6);
+}
+.header {
+    margin: 40px 0;
+    text-align: center;
+}
+.header .h1 {
+    font-size: 2em;
+}
+.wrap {
+    background: url(../img/body-bg.png);
+    padding: 20px;
+    border-radius: 5px;
+}
