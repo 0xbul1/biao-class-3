@@ -1,0 +1,96 @@
+body {
+    background: url(../img/bg-wood.jpg);
+    color: rgba(0, 0, 0, .6);
+}
+.header {
+    margin: 40px 0;
+    text-align: center;
+}
+.header .h1 {
+    font-size: 2em;
+}
+.main .wrap {
+    background: url(../img/body-bg.png);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* ================左边=============== */
+
+.main .col-lg-16.left {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main .left .link-group {
+    padding: 15px 20px;
+    border-bottom: .5px solid rgba(0, 0, 0, .3);
+    color: #2c96be;
+}
+.main .left .link-group a {
+    padding-right: 15px;
+}
+.main .left .announcement {
+    margin: 40px 0;
+}
+
+.main .left .announcement div {
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, .05);
+    font-size: 1.2em;
+}
+.main .left .activity .preview > * {
+    margin-bottom: 10px;
+}
+.main .left .activity .preview .date,
+.main .left .activity .preview .desc {
+    font-size: .8em;
+    color: rgba(0, 0, 0, .3);
+}
+.main .left .activity .preview .read-more,
+.main .left .activity .preview .title {
+    color: #2c96be;
+    font-size: 1.5em;
+}
+.main .left .activity .preview .text {
+    font-size: .9em;
+    color: rgba(0, 0, 0, .5);
+}
+
+
+/* ================右边=============== */
+
+
+.main .right > * {
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+} 
+.main .right .search input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 5px;
+    font-size: .9em;
+}
+.main .right .friend span,
+.main .right .find-me span,
+.main .right .recent-post span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.main .right .friend > a,
+.main .right .find-me > a,
+.main .right .recent-post > a {
+    display: block;
+    font-size: .9em;
+    margin-bottom: 8px;
+    color: #2c96be;
+}

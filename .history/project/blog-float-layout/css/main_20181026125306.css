@@ -3,27 +3,18 @@ body {
     color: rgba(0, 0, 0, .6);
 }
 .header {
-    margin: 40px 0 20px;
+    margin: 40px 0;
     text-align: center;
 }
 .header .h1 {
     font-size: 2em;
 }
-.header .h1 a:hover {
-    color: #000;
-}
-
 .main .wrap {
     background: url(../img/body-bg.png);
     padding: 20px;
     border-radius: 5px;
 }
-a {
-    transition: color 400ms;
-}
-a:hover {
-    color: #f7a38e;
-}
+
 
 /* ================左边=============== */
 
@@ -46,24 +37,14 @@ a:hover {
 
 .main .left .announcement div {
     border-radius: 5px;
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 10px;
     background: rgba(0, 0, 0, .05);
     font-size: 1.2em;
-    transition: color 400ms,background 1000ms;
 }
-.main .left .announcement div:hover {
-    background: #ffe0d8;
-    color: #fff;
-}
-
 .main .left .announcement div img,
 .main .left .announcement div span {
     vertical-align: middle;
-}
-.main .left .activity .preview {
-    padding: 20px 0;
-    border-bottom: 1px dotted #ccc;
 }
 
 .main .left .activity .preview > * {
@@ -82,37 +63,8 @@ a:hover {
 .main .left .activity .preview .text {
     font-size: .9em;
     color: rgba(0, 0, 0, .5);
-    line-height: 1.5;
-}
-.main .left .activity .preview .img {
-    margin: 20px 0;
-    transition: transform 2000ms,box-shadow 1000ms;
-    cursor: pointer;
-}
-.main .left .activity .preview .img:hover {
-    box-shadow: 2px 2px 2px 2px #ddd;
-    transform: scale(1.01);
 }
 
-.main .left .activity .preview .sub {
-    font-size: .9em;
-}
-
-.main .left .activity .preview .sub .cats span:first-of-type,
-.main .left .activity .preview .sub .tags span:first-of-type {
-    color: #aaa;
-}
-.main .left .activity .preview .sub .cats span:nth-last-of-type(1),
-.main .left .activity .preview .sub .tags span:nth-last-of-type(1) {
-    color: #2c96be;
-    cursor: pointer;
-
-}
-
-.main .left .activity .preview .sub img,
-.main .left .activity .preview .sub span {
-    vertical-align: middle;
-}
 
 /* ================右边=============== */
 
@@ -138,14 +90,14 @@ a:hover {
     transition: all 0.25s linear;
 }
 .main .right .search input:first-child:hover {
-    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.04), inset 0 1px 10px 0 rgba(35, 149, 189, 0.4);
+    box-shadow: 10px 0 0 3px rgba(0, 0, 0, 0.04), inset 0 1px 10px 0 rgba(35, 149, 189, 0.4);
     
 }
 
 .main .right .search input:nth-child(2) {
     position: absolute;
     top: 30px;
-    right: 24px;
+    right: 23px;
 }
 
 .main .right .friend span,
@@ -162,19 +114,4 @@ a:hover {
     font-size: .9em;
     margin-bottom: 8px;
     color: #2c96be;
-    transition: color 400ms;
-}
-.main .right .friend > a:hover,
-.main .right .find-me > a:hover,
-.main .right .recent-post > a:hover {
-    color: #f7a38e;
-}
-
-
-
-/* ==========底部========================= */
-.footer {
-    text-align: center;
-    margin: 50px 0;
-    font-size: .9em;
 }

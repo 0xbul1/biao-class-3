@@ -9,20 +9,13 @@ body {
 .header .h1 {
     font-size: 2em;
 }
-.header .h1 a:hover {
-    color: #000;
-}
-
 .main .wrap {
     background: url(../img/body-bg.png);
     padding: 20px;
     border-radius: 5px;
 }
-a {
-    transition: color 400ms;
-}
 a:hover {
-    color: #f7a38e;
+    color: #ffe0d8;
 }
 
 /* ================左边=============== */
@@ -162,19 +155,4 @@ a:hover {
     font-size: .9em;
     margin-bottom: 8px;
     color: #2c96be;
-    transition: color 400ms;
-}
-.main .right .friend > a:hover,
-.main .right .find-me > a:hover,
-.main .right .recent-post > a:hover {
-    color: #f7a38e;
-}
-
-
-
-/* ==========底部========================= */
-.footer {
-    text-align: center;
-    margin: 50px 0;
-    font-size: .9em;
 }

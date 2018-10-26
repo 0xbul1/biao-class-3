@@ -9,21 +9,12 @@ body {
 .header .h1 {
     font-size: 2em;
 }
-.header .h1 a:hover {
-    color: #000;
-}
-
 .main .wrap {
     background: url(../img/body-bg.png);
     padding: 20px;
     border-radius: 5px;
 }
-a {
-    transition: color 400ms;
-}
-a:hover {
-    color: #f7a38e;
-}
+
 
 /* ================左边=============== */
 
@@ -85,11 +76,7 @@ a:hover {
     line-height: 1.5;
 }
 .main .left .activity .preview .img {
-    margin: 20px 0;
-    transition: transform 2000ms,box-shadow 1000ms;
-    cursor: pointer;
-}
-.main .left .activity .preview .img:hover {
+/* border: 1px solid #ccc; */
     box-shadow: 2px 2px 2px 2px #ddd;
     transform: scale(1.01);
 }
@@ -162,19 +149,4 @@ a:hover {
     font-size: .9em;
     margin-bottom: 8px;
     color: #2c96be;
-    transition: color 400ms;
-}
-.main .right .friend > a:hover,
-.main .right .find-me > a:hover,
-.main .right .recent-post > a:hover {
-    color: #f7a38e;
-}
-
-
-
-/* ==========底部========================= */
-.footer {
-    text-align: center;
-    margin: 50px 0;
-    font-size: .9em;
 }

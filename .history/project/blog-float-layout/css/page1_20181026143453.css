@@ -1,0 +1,23 @@
+.main .left .activity .preview .title {
+    font-size: 2em;
+}
+.main .left .activity .preview .text {
+    font-size: 1.5em;
+}
+.main .left .activity .preview .near {
+    padding: 20px 0;
+    border-top: 1px dotted #aaa;
+    border-bottom: 1px dotted #aaa;
+
+}
+.main .left .activity .preview .near > * {
+    padding: 5px 0;
+}
+
+.main .left .activity .preview .near span {
+    font-size: .9em;
+    color: #aaa;
+}
+/* .main .left .activity .preview .near a {
+    color: #2c96be;
+} */

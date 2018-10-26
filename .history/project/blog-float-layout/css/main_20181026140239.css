@@ -8,11 +8,8 @@ body {
 }
 .header .h1 {
     font-size: 2em;
-}
-.header .h1 a:hover {
     color: #000;
 }
-
 .main .wrap {
     background: url(../img/body-bg.png);
     padding: 20px;
