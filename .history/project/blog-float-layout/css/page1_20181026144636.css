@@ -1,6 +1,3 @@
-.h1 a {
-    color: rgba(0, 0, 0, .6)
-}
 a {
     color: #2c96be;
 }
@@ -10,6 +7,12 @@ a {
 .main .left .activity .preview .text {
     font-size: 1.5em;
 }
+.main .left .activity .preview .sub {
+    background: url(../img/bg-dot.png) repeat top left;
+    padding: 5px 0 5px 10px;
+    background: #aaa;
+}
+
 .main .left .activity .preview .near {
     padding: 20px 0;
     border-top: 1px dotted #aaa;
