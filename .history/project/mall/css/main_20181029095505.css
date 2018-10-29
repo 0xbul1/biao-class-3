@@ -1,0 +1,55 @@
+body {
+    background: #ededed;
+}
+.nav .nav-page {
+    background: #fff;
+    padding: 20px 0;
+}
+.footer,
+.main,
+.first-screen {
+    margin: 20px 0;
+}
+.first-screen img {
+    border-radius: 5px;
+}
+
+.main .top {
+    padding: 20px 0;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px 5px 0 0;
+}
+.main .top .left {
+    padding-left: 30px;
+}
+.main .top .right {
+    padding-right: 30px;
+}
+.main .mid row:nth-child(2) {
+    border-radius: 0 0 5px 5px;
+    /* background: red; */
+}
+
+.main .mid .card {
+    background: #fff;
+    padding: 30px 10px;
+    text-align: center;
+}
+.main .mid .card .text > *{
+    margin-bottom: 10px;
+}
+.main .mid .card .text .title {
+    /* font-size: ; */
+    font-weight: bold;
+}
+.main .mid .card .text .desc {
+    font-size: .8em;
+    color: rgba(0, 0, 0, .4);
+}
+.main .mid .card .text .price {
+    color: #d44d44;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+

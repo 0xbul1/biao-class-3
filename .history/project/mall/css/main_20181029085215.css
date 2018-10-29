@@ -1,0 +1,33 @@
+body {
+    background: #ededed;
+}
+.row {
+    
+}
+.nav .nav-page {
+    background: #fff;
+    padding: 20px 0;
+}
+.footer,
+.main,
+.first-screen {
+    margin: 20px 0;
+}
+.main .top ,
+.first-screen img {
+    border-radius: 5px;
+}
+
+.main .top {
+    padding: 20px 0;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    
+}
+.main .top .left {
+    padding-left: 30px;
+}
+.main .top .right {
+    padding-right: 30px;
+}
+
