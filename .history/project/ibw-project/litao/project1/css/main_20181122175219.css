@@ -1,0 +1,189 @@
+/* ========header css========== */
+.header .top {
+    background: #1788ea;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+}
+.header .top .right a {
+    margin-right: 10px;
+}
+.header .top .right a:last-child {
+    margin-right: 0;
+}
+.header .top img {
+    vertical-align: middle;
+}
+.header .nav .left .logo {
+    width: 400px;
+    height: 105px;
+    overflow: hidden;
+    /* background: #ccc; */
+    background: url(../img/header-logo.jpg) no-repeat;
+    /* background-position: 0 0; */
+    /* border: 1px solid red; */
+} 
+.header .nav .right {
+    padding: 24px 0;
+    /* vertical-align: bottom; */
+}
+.header .nav .right img {
+    margin: 5px;
+}
+
+.header .nav .right span {
+    display: block;
+}
+.header .nav .right span:last-child {
+    font-size: 28px;
+    color: #1788ea;
+}
+/* ========header css========== */
+
+
+/* ========first-screen css========== */
+.first-screen .nav-page {
+    text-align: center;
+    background: #1788ea; 
+    color: #fff;   
+
+}
+.first-screen .nav-page .col-lg-3 {
+    border: 1px solid #aaa;
+}
+
+.first-screen .nav-page a {
+    display: inline-block;
+    padding: 15px 0;
+    /* border-left: 1px solid red; */
+    /* border-right: 1px solid red; */
+}
+
+/* ========first-screen css========== */
+/* ========body css========== */
+
+/* ========body css========== */
+.body .main-company .top {
+    background: #2286eb;
+    color: #ddd; 
+    margin: 20px 0;
+    font-size: 12px;
+}
+.body .main-company .top .left > a {
+    /* margin-left: 20px; */
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.body .main-company .top .left > a:first-child {
+    background: #90c31f;
+    display: inline-block;
+    color: #fff; 
+    /* width: 160px; */
+    /* height: 50px; */
+}
+.body .main-company .top .right form {
+    padding: 6px;
+}
+
+.body .main-company .top .right input {
+    padding: 4px;
+    line-height: 1.2;
+    border: none;
+}
+
+.body .main-company .top .right input:first-child {
+    background: rgba(0, 0, 0, .9);
+    border: none;
+    background: #73c1f3;;
+    line-height: 16px;
+    color: #1062b5;
+    width: 80%;
+}
+.body .main-company .top .right input:last-child {
+    color: #fff;
+    background: #68c020; 
+    width: 20%;
+    cursor: pointer;
+}
+.body .main-company .mid .left {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 185.74px;
+}
+.body .main-company .mid .left .title {
+    display: inline-block;
+    padding: 10px 0;
+    color: #1788ea;
+    border-bottom: 2px solid #1788ea;
+}
+.body .main-company .mid .left .text {
+    /* margin: 10px 0; */
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+.body .main-company .mid .left .text .desc {
+    padding: 0 10px;
+    font-size: 12px;
+}
+.body .main-company .mid .left .text .desc span {
+    background: #1788ea;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+.body .main-company .mid .left .text .desc span:nth-child(2) {
+    background: #68c020;
+}
+
+.body .main-company .mid .left .text .desc .tag {
+    margin: 20px 0;
+}
+
+
+.body .main-company .mid .right {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    /* float: right; */
+}
+.body .main-product {
+    margin: 20px 0;
+
+}
+.body .main-product .left .top {
+    text-align: center;
+    background: #68c020;
+    color: #fff;
+    padding: 10px 40px;
+}
+.body .main-product .left .mid {
+    background: #1788ea;
+    color: #fff;
+}
+.body .main-product .left .card {
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.body .main-product .left .thumbnail  {
+    border-radius: 20px;
+}
+.body .main-product .left .thumbnail img {
+    /* border-radius: 40px; */
+    /* overflow: hidden; */
+
+}
+
+.body .main-product .left .text {
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* .body .main-product .left .thumbnail  {
+    border-radius: 45px;
+
+} */
+
+
+
+/* ========body css========== */
+

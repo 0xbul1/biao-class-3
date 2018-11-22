@@ -1,0 +1,9 @@
+/* =====nav css== */
+.nav {
+    background: #f5f7f9;
+    padding: 20px;
+    vertical-align: bottom;
+}
+.nav .logo {
+    /* padding: 10px; */
+}

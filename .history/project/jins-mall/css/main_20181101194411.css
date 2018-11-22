@@ -1,0 +1,73 @@
+/* =====nav css== */
+.nav {
+    background: #f5f7f9;
+    padding: 30px;
+    vertical-align: bottom;
+}
+.nav .authority,
+.nav .link-group {
+    margin: 10px 80px;;
+}
+.nav .authority a,
+.nav .link-group a {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* ===========first-screen css======= */
+.first-screen {
+    position: relative;
+}
+
+.first-screen .box {
+    position: absolute;
+    right: 100px;
+    top: 208px;
+    background: #fff;
+    width: 400px;
+
+    height: 470px;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.9;
+}
+.first-screen .box .title {
+    font-size: 100px;
+    font-family: serif;
+}
+.first-screen .box .sub-title {
+    font-size: 20px;
+    margin-top: 40px;
+}
+.first-screen .box .desc {
+    margin-top: 80px;
+}
+.first-screen .box .desc span {
+    font-size: 18px;
+    padding: 20px;
+}
+.first-screen .box .desc span:first-child::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 36px;
+    background: #000;
+    position: relative;
+    top: 12px;
+    left: 18px;
+}
+.first-screen .box .button {
+    margin-top: 40px;
+    background: #3a4763;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 3px;
+}
+/* =======main css======== */
+.main .type .card {
+    padding: 10px;
+    /* text-align: center; */
+
+}

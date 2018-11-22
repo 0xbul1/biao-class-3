@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="index.css" rel="stylesheet">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>👋 Hello, GitHub | @natfriedman</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="👋 Hello, GitHub" />
+<meta name="author" content="Nat Friedman" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="@natfriedman" />
+<meta property="og:description" content="@natfriedman" />
+<link rel="canonical" href="https://nat.github.io/hello/" />
+<meta property="og:url" content="https://nat.github.io/hello/" />
+<meta property="og:site_name" content="👋 Hello, GitHub" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@natfriedman" />
+<meta name="twitter:creator" content="@natfriedman" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://nat.github.io/hello/","headline":"👋 Hello, GitHub","name":"👋 Hello, GitHub","author":{"@type":"Person","name":"Nat Friedman"},"description":"@natfriedman","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <div class="container-lg py-6">
+      <div class="clearfix gutter-md-spacious">
+        <div class="float-left col-md-4">
+          <img class="width-full" src="me.jpg" alt="Nat Friedman">
+        </div>
+        <div class="float-left col-md-8">
+          <div class="markdown-body">
+            <h1 id="-hello-github">👋 Hello, GitHub</h1>
+
+<p>The Octocat is out of the bag: GitHub is joining Microsoft and I will become the new CEO when the deal closes later this year. I’m confident that this change will be great for GitHub and developers around the world, and I wanted to take the opportunity to introduce myself.</p>
+
+<p>Who am I? My name is Nat and I’ve been a developer since I was six. I’ve been active in open source since the 90s when I discovered Linux.</p>
+
+<p>I was blown away to discover a free operating system that came with an editor, compiler, and debugger—all of the tools you need to be a developer, and all of the source code! It was an incredible opportunity for a teenager in a small town in Virginia to learn from the best developers in the world. I spent 15 years working with Linux and founded a couple of open source companies. My first commit to GitHub was in 2009, when GitHub was a year old.</p>
+
+<p>Today I live in San Francisco with my wife and daughter. Two years ago I joined Microsoft when it acquired Xamarin, a developer-focused company I started with Miguel de Icaza. I was delighted to see that Microsoft was broadening its horizons as a developer-centric company by rallying behind technologies like Linux, Git, node, and Kubernetes. Microsoft had become a massive contributor to open source, and was remodeling its engineering culture after the example of open source projects.</p>
+
+<p>I believe Microsoft is the ideal partner for GitHub, and as a developer who loves GitHub, leading its next chapter will be an incredibly exciting opportunity and responsibility. Just as open source helped launch my career, millions of people today depend on GitHub to help them learn, grow, and build amazing things. I’m determined to give that opportunity to millions more around the world.</p>
+
+<p>At the same time, I understand that there is some healthy skepticism in the community, so I wanted to be absolutely clear about two things:</p>
+
+<ul>
+  <li>
+    <p><strong>GitHub will operate independently as a community, platform, and business.</strong> This means that GitHub will retain its developer-first values, distinctive spirit, and open extensibility. We will always support developers in their choice of any language, license, tool, platform, or cloud.</p>
+  </li>
+  <li>
+    <p><strong>GitHub will retain its product philosophy.</strong> We love GitHub because of the deep care and thoughtfulness that goes into every facet of the developer’s experience. I understand and respect this, and know that we will continue to build tasteful, snappy, polished tools that developers love.</p>
+  </li>
+</ul>
+
+<p>I’m not asking for your trust, but I’m committed to earning it. I can’t wait to help make the GitHub platform and community that’s special to all of us even greater.</p>
+
+<p>– <a href="https://github.com/natfriedman">@natfriedman</a></p>
+
+<p>PS: I’ll be doing an AMA on Reddit in the next few days, I hope to see you there!</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

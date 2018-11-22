@@ -1,0 +1,9 @@
+/* =====nav css== */
+.nav {
+    background: #f5f7f9;
+    padding: 30px;
+    vertical-align: bottom;
+}
+.nav .link-group {
+    margin: 10px 80px;;
+}

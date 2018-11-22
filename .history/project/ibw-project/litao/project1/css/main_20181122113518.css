@@ -1,0 +1,42 @@
+/* ========header css========== */
+.header .top {
+    background: #1788ea;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+}
+.header .top .right a {
+    margin-right: 10px;
+}
+.header .top .right a:last-child {
+    margin-right: 0;
+}
+.header .top img {
+    vertical-align: bottom;
+}
+.header .nav .left .logo {
+    width: 400px;
+    height: 105px;
+    overflow: hidden;
+    /* background: #ccc; */
+    background: url(../img/header-logo.jpg) no-repeat;
+    /* background-position: 0 0; */
+    /* border: 1px solid red; */
+} 
+.header .nav .right {
+    padding: 30px 0;
+    vertical-align: bottom;
+}
+.header .nav .right img {
+    margin: 5px;
+}
+
+.header .nav .right span {
+    display: block;
+}
+.header .nav .right span:last-child {
+    font-size: 28px;
+    color: #1788ea;
+}
+/* ========header css========== */
+/* ========first-screen css========== */

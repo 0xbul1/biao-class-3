@@ -1,0 +1,24 @@
+/* ========header css========== */
+.header .top {
+    background: #1788ea;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+}
+.header .top .fr a {
+    margin-right: 10px;
+}
+.header .top .fr a:last-child {
+    margin-right: 0;
+}
+.header .top img {
+    vertical-align: bottom;
+}
+.header .nav .logo {
+    background: #ccc;
+    background-image: url(../img/header-logo.jpg);
+    background-position: 0 0;
+    border: 1px solid red;
+} 
+
+/* ========header css========== */

@@ -1,0 +1,16 @@
+/* =====nav css== */
+.nav {
+    background: #f5f7f9;
+    padding: 30px;
+    vertical-align: bottom;
+}
+.nav .authority,
+.nav .link-group {
+    margin: 10px 80px;;
+}
+.nav .link-group a {
+    padding: 10px;
+}
+.nav .authority {
+    margin: 10px 20px;
+}

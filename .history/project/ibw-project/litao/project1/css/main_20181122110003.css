@@ -1,0 +1,15 @@
+
+.header .top {
+    background: #1788ea;
+    color: #fff;
+    padding: 18px 0;
+    font-size: .9em;
+}
+.header .top .fr a {
+    /* padding: 0px 10px; */
+    margin-right: 0 10px;
+}
+
+.header .top img {
+    vertical-align: bottom;
+}
