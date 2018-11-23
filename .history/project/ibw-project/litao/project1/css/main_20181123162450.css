@@ -58,8 +58,8 @@
     /* border-left: 1px solid red; */
     /* border-right: 1px solid red; */
 }
-.first-screen .carousel {
-    text-align: center;
+.first-screen .carousel img {
+    margin: 0 auto;
 }
 
 /* ========first-screen css========== */
