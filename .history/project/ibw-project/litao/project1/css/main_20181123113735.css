@@ -41,10 +41,10 @@
 /* ========header css========== */
 
 
-/* ========first-screen css========== */
-.first-screen .nav-page {
-    text-align: center;
-    background: #1788ea; 
+========first-screen css==========
+.first-screen .nav-page .col-lg-3 {
+    
+background: #1788ea; 
     color: #fff;   
 
 }

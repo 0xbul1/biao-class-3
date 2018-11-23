@@ -42,8 +42,6 @@
 
 
 /* ========first-screen css========== */
-.first-screen .nav-page {
-    text-align: center;
     background: #1788ea; 
     color: #fff;   
 
@@ -283,87 +281,9 @@
     background: #90c31f;
 
 }
-.body .equipment .mid {
-    background: #ddd;
-    color: #666;
-    text-align: center;
-}
-
 .body .equipment .mid .box {
-    padding: 16px 8px 0;
+    padding: 15px;
 }
 
-.body .dynamic  {
-
-}
-.body .dynamic .top{
-    margin-top: 20px;
-    color: #fff;
-
-}
-.body .dynamic .left .top {
-    background: #2286eb;
-}
-.body .dynamic .left .top .col:first-child {
-    padding: 8px 30px;
-    background: #90c31f;
-}
-.body .dynamic .left .top .col:last-child {
-    /* margin-top: 10px; */
-    margin: 8px;
-    background: #90c31f;
-
-}
-.body .dynamic .mid {
-    font-size: 13px;
-}
-.body .dynamic .mid .row {
-    padding: 5px 0;
-    border-bottom: 1px solid #eee;
-}
-
-.body .dynamic .mid a::before {
-    content: '>'
-}
-
-.body .dynamic .right .top {
-    background: #2286eb;
-}
-.body .dynamic .right .top .col:first-child {
-    padding: 8px 30px;
-    background: #90c31f;
-}
-.body .dynamic .right .top .col:last-child {
-    /* margin-top: 10px; */
-    margin: 8px;
-    background: #90c31f;
-
-}
 /* ========body css========== */
 
-/* ========footer css========== */
-.footer {
-    color: #fff;
-    border-top: 5px solid #68c020;
-    text-align: center;
-
-}
-.footer .info {
-    padding: 20px;
-    background: #2286eb;
-}
-.footer .info .text .desc a {
-    display: block;
-    color: #ddd;
-    font-size: 13px;
-    padding: 5px;
-}
-.footer .info .text .desc a::before {
-    content: '>';
-}
-
-.footer .meta-info {
-    background: #1062b5;
-}
-
-/* ========footer css========== */

@@ -42,8 +42,6 @@
 
 
 /* ========first-screen css========== */
-.first-screen .nav-page {
-    text-align: center;
     background: #1788ea; 
     color: #fff;   
 
@@ -296,9 +294,9 @@
 .body .dynamic  {
 
 }
-.body .dynamic .top{
+.body .dynamic {
     margin-top: 20px;
-    color: #fff;
+    /* color: #fff; */
 
 }
 .body .dynamic .left .top {
@@ -314,15 +312,15 @@
     background: #90c31f;
 
 }
-.body .dynamic .mid {
-    font-size: 13px;
+.body .dynamic .left .mid a {
+    /* display: block; */
 }
-.body .dynamic .mid .row {
-    padding: 5px 0;
-    border-bottom: 1px solid #eee;
+.body .dynamic .left .mid span {
+    /* display: block; */
+
 }
 
-.body .dynamic .mid a::before {
+.body .dynamic .left .mid a::before {
     content: '>'
 }
 
@@ -339,31 +337,6 @@
     background: #90c31f;
 
 }
+
 /* ========body css========== */
 
-/* ========footer css========== */
-.footer {
-    color: #fff;
-    border-top: 5px solid #68c020;
-    text-align: center;
-
-}
-.footer .info {
-    padding: 20px;
-    background: #2286eb;
-}
-.footer .info .text .desc a {
-    display: block;
-    color: #ddd;
-    font-size: 13px;
-    padding: 5px;
-}
-.footer .info .text .desc a::before {
-    content: '>';
-}
-
-.footer .meta-info {
-    background: #1062b5;
-}
-
-/* ========footer css========== */

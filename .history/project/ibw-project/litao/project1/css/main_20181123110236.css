@@ -42,8 +42,6 @@
 
 
 /* ========first-screen css========== */
-.first-screen .nav-page {
-    text-align: center;
     background: #1788ea; 
     color: #fff;   
 
@@ -356,7 +354,6 @@
     display: block;
     color: #ddd;
     font-size: 13px;
-    padding: 5px;
 }
 .footer .info .text .desc a::before {
     content: '>';
