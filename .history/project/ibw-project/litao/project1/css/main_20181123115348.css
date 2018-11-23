@@ -293,9 +293,9 @@
     padding: 16px 10px;
 }
 
-/* .body .dynamic  {
+.body .dynamic  {
 
-} */
+}
 .body .dynamic .top{
     margin-top: 20px;
     color: #fff;
@@ -344,12 +344,12 @@
 /* ========footer css========== */
 .footer {
     color: #fff;
-    border-top: 8px solid #68c020;
+    border-top: 5px solid #68c020;
     text-align: center;
 
 }
 .footer .info {
-    padding: 60px;
+    padding: 20px;
     background: #2286eb;
 }
 .footer .info .text .desc a {
@@ -364,7 +364,6 @@
 
 .footer .meta-info {
     background: #1062b5;
-    padding: 20px;
 }
 
 /* ========footer css========== */

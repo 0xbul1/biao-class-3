@@ -349,7 +349,7 @@
 
 }
 .footer .info {
-    padding: 60px;
+    padding: 20px;
     background: #2286eb;
 }
 .footer .info .text .desc a {
@@ -364,7 +364,6 @@
 
 .footer .meta-info {
     background: #1062b5;
-    padding: 20px;
 }
 
 /* ========footer css========== */
