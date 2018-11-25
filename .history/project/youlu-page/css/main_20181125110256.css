@@ -1,0 +1,39 @@
+/* =============fuckdog1 css========== */
+
+.fuckdog1 {
+    background: #64bde9;
+    margin-top: 40px;
+}
+.fuckdog1 a {
+    display: inline-block;
+    background: #fcfcfc;
+
+    color: #78a1c8;
+    padding: 8px 20px;
+    margin-top: 5px;
+    /* margin: 5px  0; */
+}
+.fuckdog1 a:first-child {
+    margin-left: 10px;
+}
+/* =============fuckdog1 css========== */
+/* =============fuckdog2 css========== */
+.fuckdog2 {
+    background: #f4f4f4;
+}
+.fuckdog2 > span::after {
+    content: '>>';
+}
+.fuckdog2 span:first-child {
+    display: inline-block;
+    border-left: 1px dotted red;
+    padding-left: 15px;
+}
+
+/* =============fuckdog2 css========== */
+/* =============fuckdog3 css========== */
+.fuckdog3 a {
+    color: #78a1c8;
+    background: #e4f4fa;
+}
+/* =============fuckdog3 css========== */

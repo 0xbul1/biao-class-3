@@ -1,0 +1,16 @@
+.fuckdog1 {
+    background: #64bde9;
+}
+.fuckdog1 a {
+    display: inline-block;
+    background:#f5f7f8;
+
+    color: #78a1c8;
+    padding: 8px 20px;
+    margin-top: 5px;
+    /* margin: 5px  0; */
+}
+.fuckdog1 a:first-child {
+    margin-left: 10px;
+
+}
